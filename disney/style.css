@@ -1,0 +1,294 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+*{box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+
+img{ width: 100%;
+    }
+
+/* header */
+.primary{
+    position: relative;
+}
+
+.primary .container{
+    display: flex;
+    padding: 2rem 2rem;
+
+}
+.sign{
+    text-align: right;
+    padding: 1rem 4rem 0 0 ;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
+   
+}
+.sign button{
+    width:150px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border:2px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+.sign button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.primary{
+    background-image:url(https://cnbl-cdn.bamgrid.com/assets/3a481881221d1af43e49e939f3a1df9f8d952fce0fcee3463c6dfdc47436dd44/original) ;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    width: 50%;
+    margin:1rem 0 0 4rem
+}
+.left *{
+    margin-bottom:2rem;
+}
+.left img{
+    width: 30%;
+}
+.left h1{
+    font-size: 44px;
+    line-height: 54px;
+    color: white;
+}
+.left p{
+    font-size: 20px;
+    color: silver;
+   
+}
+.email{
+    display: flex;
+   
+    justify-content: center;
+  
+  
+}
+.email input{
+    background-color: #31343e;
+    border:1px solid #31343e;
+    color: silver;
+    display: block;
+    padding: 0 12px;
+    border-radius: 4px 0 0 4px;
+    width:100%;
+    font-size: 18px;
+    height: 50px;
+}
+.email button{
+    border-radius: 0 4px 4px 0;
+    padding: 8px 14px;
+    cursor: pointer;
+    height: 50px;
+    width: 60%;
+    text-align: center;
+    color: white;
+    background-color: #0063e5;
+    border: none;
+    font-size: 18px;
+}
+.email button:hover{
+    background-color: #2b66b3;
+    transition: all .2s ease 0s;
+}
+.icon a{
+    color: silver;
+    font-size: 48px;
+  
+    margin-left: 5rem;
+}
+.icon a:hover{
+    color: #13151d;
+}
+
+
+/* section */
+
+.picture{
+    position: relative;
+    background-color: #030912;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    width: 40%;
+  
+  
+  
+}
+.row h1{
+    font-size: 44px;
+    line-height: 54px;
+    color: white;
+    margin: 3rem 0;
+   
+}
+.row p{
+    font-size: 20px;
+    color: silver;
+    
+    line-height: 40px;
+}
+
+
+/* section main-section */
+
+.main-section{
+   
+    background-color: #030912;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5.6vw;
+    
+}
+.inner-banner h1{
+    font-size: 44px;
+    text-align: center;
+    color: white;
+    line-height: 54px;
+    margin-bottom: 30px;
+}
+.inner-banner p{
+    color: silver;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.inner-banner h2{
+    text-align: center;
+    color: white;
+    
+}
+.item{
+    display: flex;
+    list-style: none;
+   
+}
+.item li *{
+    padding-bottom: 1.5rem;
+}
+
+/* section-disney */
+
+
+.disney{
+    display: flex;
+    flex-direction: column;
+   
+}
+.disney h1{
+    align-self: center;
+    font-size: 54px;
+    color: white;
+    margin-bottom: 2rem;
+
+}
+
+.disney span{
+  background-color:   #13151d;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 3rem;
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+}
+.disney span::after{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 20px);
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+
+/* section-devices */
+
+.device-items{
+    display: flex;
+    text-align: center;
+}
+.device h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.device-items li{
+    list-style: none;
+    color: silver;
+    padding: .5rem;
+}
+.device-items h2{
+    margin-bottom: 2rem;
+}
+.device p {
+    text-align: center;
+    color: silver;
+    margin-top: 3rem;
+}
+
+/* footer-policy */
+
+
+
+.policy-items{
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 2rem;
+   
+    
+}
+.policy-items li{
+    padding: 0 1.5rem;
+    font-size: 12px;
+    color: silver;
+    
+}
+.flex-footer img{
+    width: 8%;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+.flex-footer li{
+    cursor: pointer;
+}
+.flex-footer li:hover{
+    color: white;
+}
+
+
